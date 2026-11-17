@@ -1,1 +1,65 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101018;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 25px 15px;
+  background: #191927;
+  border-bottom: 1px solid #333;
+}
+
+h1 {
+  color: #ff4fa3;
+  font-size: 30px;
+}
+
+.hero {
+  padding: 65px 20px;
+}
+
+.hero h2 {
+  font-size: 34px;
+}
+
+.hero p {
+  color: #c4c4d0;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.upload-box {
+  max-width: 500px;
+  margin: 25px auto;
+  padding: 30px 20px;
+  background: #1d1d2b;
+  border: 2px dashed #ff4fa3;
+  border-radius: 15px;
+}
+
+input {
+  max-width: 100%;
+  margin: 15px 0;
+}
+
+button {
+  padding: 14px 25px;
+  background: #ff4fa3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  padding: 25px;
+  color: #999;
+}
